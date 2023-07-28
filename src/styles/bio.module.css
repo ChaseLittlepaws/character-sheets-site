@@ -19,7 +19,7 @@
 
 .content {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 30px;
 }
 
@@ -27,7 +27,7 @@
   display: flex;
   flex: 2;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -45,7 +45,7 @@
 .highlight {
   color: #575279;
   font-family: 'Atkinson Hyperlegible', serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
@@ -55,7 +55,7 @@
 .pStyle {
   color: #575279;
   font-family: 'Atkinson Hyperlegible', serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
