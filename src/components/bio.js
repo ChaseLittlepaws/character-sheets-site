@@ -1,11 +1,17 @@
 import React from "react";
-import { container } from '../styles/bio.module.css'
+import { container,
+        content,
+        h1Style,
+        pStyle
+    } from '../styles/header.module.css'
 
 function Bio() {
     return (
       <div className={container}>
-        <h1>Hello, world!</h1>
-        <p>Welcome to my website.</p>
+        <div className={content}>
+            <h1 className={h1Style}>Hello, world!</h1>
+            <p className={pStyle}>Welcome to my website.</p>
+        </div>
       </div>
     );
 }
