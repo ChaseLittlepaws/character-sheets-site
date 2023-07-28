@@ -20,11 +20,12 @@
 .content {
   display: flex;
   align-items: flex-end;
-  gap: 56px;
+  padding: 30px;
 }
 
 .bioText {
   display: flex;
+  flex: 2;
   flex-direction: column;
   justify-content: center;
   margin-left: 60px;
@@ -38,6 +39,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-align: center;
 }
 
 .highlight {
@@ -47,6 +49,7 @@
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .pStyle {
@@ -56,13 +59,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .profile {
   display: flex;
   flex: 1;
   padding: 30px;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
   border-radius: 55px;
   background: #F2E9E1;
