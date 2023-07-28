@@ -5,48 +5,68 @@
   display: flex;
   flex-direction: column;
   width: 1311px;
-  height: 798px;
   flex-shrink: 0;
   border-radius: 55px;
-  left: calc(50% - 1124px/2);
   background: #FFFAF3;
   /* Drop Shadow */
   box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.25);
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  display: inline-flex;
   align-items: flex-start;
   gap: 56px;
 }
 
 .content {
-  display: inline-flex;
+  display: flex;
   align-items: flex-end;
-  gap: 56px;  
+  gap: 56px;
 }
 
 .bioText {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .h1Style {
   color: #575279;
-  font-family: Josefin Sans;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
+.highlight {
+  color: #575279;
+  font-family: 'Atkinson Hyperlegible', serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .pStyle {
   color: #575279;
-  font-family: Atkinson Hyperlegible;
+  font-family: 'Atkinson Hyperlegible', serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.profile {
+  display: flex;
+  flex: 1;
+  padding: 30px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 55px;
+  background: #F2E9E1;
+  margin: 30px;
+  /* Drop Shadow */
+  box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.25);
 }
