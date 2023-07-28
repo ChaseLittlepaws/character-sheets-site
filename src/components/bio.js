@@ -7,7 +7,9 @@ import { container,
         bioText,
         profile,
         princess,
-        h2Style
+        h2Style,
+        list,
+        listItem
     } from '../styles/bio.module.css';
 import princessImg from "../images/princess.png";
 
@@ -26,6 +28,13 @@ function Bio() {
             <div className={profile}>
                 <img className={princess} src={[princessImg]} alt="Kasey Littlepaws dressed as a princess"/>
                 <h2 className={h2Style}>Demographic Information</h2>
+                <ul className={list}>
+                    <li className={listItem}>Female</li>
+                    <li className={listItem}>3 Years Old</li>
+                    <li className={listItem}>White-Tailed Deer</li>
+                    <li className={listItem}>Born April 17th</li>
+                    <li className={listItem}>New Haven, Maine</li>
+                </ul>
             </div>
         </div>
         </div>
