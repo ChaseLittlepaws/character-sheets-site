@@ -5,7 +5,7 @@ import {
   navLinks,
   navLinkItem,
   navLinkText
-} from './header.module.css'
+} from '../styles/header.module.css'
 import photosIcon from '/src/images/photosIcon.png';
 import favoritesIcon from '/src/images/favoritesIcon.png';
 import storiesIcon from '/src/images/storiesIcon.png';
@@ -13,7 +13,7 @@ import blogsIcon from '/src/images/blogsIcon.png';
 import storeIcon from '/src/images/storeIcon.png';
 import socialsIcon from '/src/images/socialsIcon.png';
 
-const Header = ({ }) => {
+const Header = () => {
   const data = [
     {
       name: "Photos",
