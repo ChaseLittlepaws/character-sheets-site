@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 80px;
+  gap: 40px;
   box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.25);
   border-radius: 55px;
   width: fit-content;
@@ -20,7 +20,6 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    gap: 12px;
   }
   
   
@@ -35,10 +34,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 80px;
   }
-  .nav-link-text {
+  
+  .nav-link-content {
     color: black;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-style: normal;

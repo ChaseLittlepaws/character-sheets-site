@@ -2,13 +2,13 @@ import { Link } from "gatsby";
 import * as React from "react";
 import {
 	container,
+	navIcon,
+	navLinkContent,
 	navLinkItem,
 	navLinks,
-	navLinkText,
 } from "../styles/header.module.css";
 import blogsIcon from "/src/images/blogsIcon.png";
 import favoritesIcon from "/src/images/favoritesIcon.png";
-import photosIcon from "/src/images/photosIcon.png";
 import socialsIcon from "/src/images/socialsIcon.png";
 import storeIcon from "/src/images/storeIcon.png";
 import storiesIcon from "/src/images/storiesIcon.png";
@@ -16,13 +16,8 @@ import storiesIcon from "/src/images/storiesIcon.png";
 const Header = () => {
 	const data = [
 		{
-			name: "Photos",
-			nav: "/photos",
-			icon: photosIcon,
-		},
-		{
 			name: "Favorites",
-			nav: "/favorites",
+			nav: "#favorites",
 			icon: favoritesIcon,
 		},
 		{
@@ -53,8 +48,9 @@ const Header = () => {
 				<ul className={navLinks}>
 					{data.map(({ name, nav, icon }) => (
 						<li className={navLinkItem} key={name}>
-							<Link to={nav} className={navLinkText}>
+							<Link to={nav} className={navLinkContent}>
 								<img
+									className={navIcon}
 									src={icon}
 									alt={name}
 									style={{ width: "105px", height: "auto" }}
